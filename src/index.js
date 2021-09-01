@@ -1,3 +1,5 @@
+import './scss/default.scss'
+
 console.log('Is working !!')
 
 const obj = {

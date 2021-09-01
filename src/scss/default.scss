@@ -1,0 +1,34 @@
+$mainColor: steelblue;
+
+:root {
+  --bgColor: bisque;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgColor);
+
+  h1 {
+    color: $mainColor;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  a {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  input {
+    display: block;
+  }
+}
